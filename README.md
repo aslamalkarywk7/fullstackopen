@@ -13,6 +13,10 @@ part1/
   courseinfo/                   Exercises 1.1-1.5 (Vite + React)
   unicafe/                      Exercises 1.6-1.11 (Vite + React)
   anecdotes/                    Exercises 1.12-1.14 (Vite + React)
+part2/
+  courseinfo/                   Exercises 2.1-2.5 (Vite + React)
+  phonebook/                    Exercises 2.6-2.17 (Vite + React + json-server)
+  countries/                    Exercises 2.18-2.20 (Vite + React + REST APIs)
 ```
 
 Exercises 0.1 (HTML), 0.2 (CSS) and 0.3 (HTML forms) are reading-only
