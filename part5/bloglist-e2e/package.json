@@ -1,0 +1,15 @@
+{
+  "name": "bloglist-e2e",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Full Stack Open part5 bloglist end-to-end tests (Playwright)",
+  "scripts": {
+    "test": "playwright test --project=chromium",
+    "test:report": "playwright show-report"
+  },
+  "author": "aslamalkarywk7",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.51.0"
+  }
+}

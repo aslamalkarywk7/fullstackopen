@@ -21,6 +21,9 @@ part3/
   phonebook/                    Exercises 3.1-3.22 (Express + Mongoose backend)
 part4/
   bloglist/                     Exercises 4.1-4.23 (Express + tests + auth)
+part5/
+  bloglist-frontend/            Exercises 5.1-5.16, 5.24-5.31 (React + Router + MUI)
+  bloglist-e2e/                 Exercises 5.17-5.23, 5.28 (Playwright E2E)
 ```
 
 Exercises 0.1 (HTML), 0.2 (CSS) and 0.3 (HTML forms) are reading-only

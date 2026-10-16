@@ -2,3 +2,4 @@ node_modules/
 part1/*/dist
 part2/*/dist
 .env
+part5/*/dist
