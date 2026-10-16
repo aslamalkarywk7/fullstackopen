@@ -1,0 +1,27 @@
+{
+  "name": "phonebook-backend",
+  "version": "0.0.1",
+  "description": "Full Stack Open part3 phonebook backend (Express + Mongoose)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "lint": "eslint .",
+    "build:ui": "@powershell Remove-Item -Recurse -Force dist; cd ../part2/phonebook; npm run build; @powershell Copy-Item dist -Recurse ../../part3/phonebook/dist",
+    "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && git push"
+  },
+  "author": "aslamalkarywk7",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "mongoose": "^8.11.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.22.0",
+    "@stylistic/eslint-plugin": "^2.13.0",
+    "eslint": "^9.22.0",
+    "globals": "^15.14.0"
+  }
+}
