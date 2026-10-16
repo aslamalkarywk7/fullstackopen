@@ -19,6 +19,8 @@ part2/
   countries/                    Exercises 2.18-2.20 (Vite + React + REST APIs)
 part3/
   phonebook/                    Exercises 3.1-3.22 (Express + Mongoose backend)
+part4/
+  bloglist/                     Exercises 4.1-4.23 (Express + tests + auth)
 ```
 
 Exercises 0.1 (HTML), 0.2 (CSS) and 0.3 (HTML forms) are reading-only
