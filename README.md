@@ -9,6 +9,10 @@ part0/
   0.4-new-note-diagram.md       Exercise 0.4 — New note diagram (traditional web app)
   0.5-spa-diagram.md            Exercise 0.5 — Single page app diagram
   0.6-spa-new-note-diagram.md   Exercise 0.6 — New note in Single page app diagram
+part1/
+  courseinfo/                   Exercises 1.1-1.5 (Vite + React)
+  unicafe/                      Exercises 1.6-1.11 (Vite + React)
+  anecdotes/                    Exercises 1.12-1.14 (Vite + React)
 ```
 
 Exercises 0.1 (HTML), 0.2 (CSS) and 0.3 (HTML forms) are reading-only
