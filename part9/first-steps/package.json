@@ -1,0 +1,31 @@
+{
+  "name": "first-steps",
+  "version": "1.0.0",
+  "description": "Full Stack Open part9 first steps with TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "ts-node": "ts-node",
+    "calculateBmi": "ts-node bmiCalculator.ts",
+    "calculateExercises": "ts-node exerciseCalculator.ts",
+    "start": "ts-node index.ts",
+    "dev": "ts-node-dev index.ts",
+    "lint": "eslint ."
+  },
+  "author": "aslamalkarywk7",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.12.0",
+    "@stylistic/eslint-plugin": "^2.8.0",
+    "@types/eslint__js": "^8.42.3",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.7.0",
+    "eslint": "^9.12.0",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.0",
+    "typescript-eslint": "^8.8.0"
+  }
+}

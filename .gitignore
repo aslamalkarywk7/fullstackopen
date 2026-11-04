@@ -3,3 +3,17 @@ part1/*/dist
 part2/*/dist
 .env
 part5/*/dist
+
+# merged parts 6-10
+part6/*/dist
+part6/*/build
+part7/*/dist
+part7/bloglist/client/dist
+part8/*/dist
+part9/*/dist
+part9/*/build
+part10/*/dist
+.env.*
+!.env.example
+# TS build info
+*.tsbuildinfo

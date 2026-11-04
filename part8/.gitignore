@@ -1,0 +1,29 @@
+# dependencies
+node_modules/
+
+# production builds
+dist/
+dist-ssr/
+build/
+
+# env files
+.env
+.env.local
+.env.*.local
+
+# logs
+logs
+*.log
+npm-debug.log*
+
+# test artifacts
+test-results/
+playwright-report/
+blob-report/
+coverage/
+
+# editor/OS
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store

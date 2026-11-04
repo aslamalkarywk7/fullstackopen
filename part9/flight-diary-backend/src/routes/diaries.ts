@@ -1,0 +1,27 @@
+import express from 'express';
+import diaryService from '../services/diaryService';
+import toNewDiaryEntry from '../utils';
+import { NonSensitiveDiaryEntry } from '../types';
+
+const router = express.Router();
+
+router.get('/', (_req, res) => {
+  const entries: NonSensitiveDiaryEntry[] = diaryService.getNonSensitiveEntries();
+  res.send(entries);
+});
+
+router.post('/', (req, res) => {
+  try {
+    const newDiaryEntry = toNewDiaryEntry(req.body);
+    const addedEntry = diaryService.addDiary(newDiaryEntry);
+    res.json(addedEntry);
+  } catch (error: unknown) {
+    let errorMessage = 'Something went wrong.';
+    if (error instanceof Error) {
+      errorMessage += ' Error: ' + error.message;
+    }
+    res.status(400).send(errorMessage);
+  }
+});
+
+export default router;

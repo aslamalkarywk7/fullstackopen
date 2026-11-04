@@ -1,0 +1,33 @@
+{
+  "name": "library-backend",
+  "version": "0.0.1",
+  "description": "Full Stack Open part8 library GraphQL backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "lint": "eslint ."
+  },
+  "author": "aslamalkarywk7",
+  "license": "MIT",
+  "dependencies": {
+    "@apollo/server": "^4.11.0",
+    "@as-integrations/express5": "^1.1.2",
+    "@graphql-tools/schema": "^10.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "graphql": "^16.10.0",
+    "graphql-subscriptions": "^3.0.0",
+    "graphql-ws": "^6.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.11.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.22.0",
+    "@stylistic/eslint-plugin": "^2.13.0",
+    "eslint": "^9.22.0",
+    "globals": "^15.14.0"
+  }
+}
